@@ -92,3 +92,101 @@ section h1{
   width:100%;
   height: 40px;
 }
+
+
+/* Portfolio */
+
+.game-container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+/*Game 1*/
+.game1{
+  position: relative;
+  overflow: auto;
+  float:left;
+  clear: both;
+}
+
+.game1 img{
+  height:200px;
+  width:200px;
+  margin: 5px 5px 5px 5px;
+}
+
+.div-g1{
+  background-color: lightblue;
+  top: 50%;
+  position: absolute; 
+  margin: 5px 0px 5px 215px;
+  text-align: center;
+}
+
+/*Game 2*/
+.game2{
+  position: relative;
+  overflow: auto;
+  float:left;
+  clear: both;
+}
+
+.game2 img{
+  height:200px;
+  width:200px;
+  margin: 5px 5px 5px 5px;
+}
+
+.div-g2{
+  background-color: rgb(31, 117, 146);
+  top: 50%;
+  position: absolute; 
+  width: 199px;
+  margin-left:5px;
+}
+
+/*Game 3*/
+.game3{
+  position: relative;
+  overflow: auto;
+  float:left;
+  clear: both;
+}
+
+.game3 img{
+  height:200px;
+  width:200px;
+  margin: 5px 5px 5px 5px;
+}
+
+.div-g3{
+  background-color: rgb(31, 117, 146);
+  top: 50%;
+  position: absolute; 
+  width: 199px;
+  margin-left:5px;
+}
+
+/*Game 4*/
+.game4{
+  position: relative;
+  overflow: auto;
+  float:left;
+  clear: both;
+}
+
+.game4 img{
+  height:200px;
+  width:200px;
+  margin: 5px 5px 5px 5px;
+}
+
+.div-g4{
+  background-color: rgb(31, 117, 146);
+  top: 50%;
+  position: absolute; 
+  width: 199px;
+  margin-left:5px;
+}
