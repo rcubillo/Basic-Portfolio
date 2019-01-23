@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  text-align: center;
+
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -15,7 +15,7 @@ body{
 overflow: auto;
 width: 100%;
 background-color:#ffffff;
-position:fixed;
+
 border-bottom: 2px solid gray;
 }
 
@@ -49,4 +49,37 @@ border-right: 1px solid gray;
 
 .index{
   border-right: 1px solid gray;
+}
+
+
+.about-me{
+  position: fixed;
+  background-color: #ffffff;
+  border: 1px solid #9B9A9A;
+  margin: 100px 100px 100px 100px;
+}
+
+.pic{
+  width:150px;
+  height: 150px;
+  float: left;
+  display: block;
+  margin: 10px 10px 0 10px;
+}
+
+
+#horizontal {
+  border: 2px solid #cccccc;
+  border-radius: 300px/10px;
+   height: 0px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section h1{
+  padding-left: 50px;
+}
+.me{
+  padding: 10px;
 }
