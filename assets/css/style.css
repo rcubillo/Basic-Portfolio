@@ -100,13 +100,14 @@ section h1{
   position: fixed;
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
-  margin: 200px 200px 200px 100px;
+  margin: 150px 150px 150px 150px;
+  
+ 
 }
 
 .game-container{
-  display: inline-block;
   text-align: center;
-  width: 100%;
+  overflow: auto;
 }
 
 /*Game 1*/
@@ -114,21 +115,21 @@ section h1{
   position: relative;
   overflow: auto;
   float:left;
-  clear: both;
 }
 
 .game1 img{
   height:200px;
   width:200px;
-  margin: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
+  
 }
 
 .div-g1{
   background-color: lightblue;
   top: 50%;
   position: absolute; 
-  margin: 5px 0px 5px 215px;
-  text-align: center;
+  width: 201px;
+  margin-left:19px;
 }
 
 /*Game 2*/
@@ -136,21 +137,26 @@ section h1{
   position: relative;
   overflow: auto;
   float:left;
-  clear: both;
 }
 
 .game2 img{
   height:200px;
   width:200px;
-  margin: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
 }
 
 .div-g2{
-  background-color: rgb(31, 117, 146);
+  background-color: lightblue;
   top: 50%;
   position: absolute; 
-  width: 199px;
-  margin-left:5px;
+  width: 201px;
+  margin-left:19px;
+}
+
+.game-container-down{
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
 }
 
 /*Game 3*/
@@ -158,21 +164,20 @@ section h1{
   position: relative;
   overflow: auto;
   float:left;
-  clear: both;
 }
 
 .game3 img{
   height:200px;
   width:200px;
-  margin: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
 }
 
 .div-g3{
-  background-color: rgb(31, 117, 146);
+  background-color: lightblue;
   top: 50%;
   position: absolute; 
-  width: 199px;
-  margin-left:5px;
+  width: 201px;
+  margin-left:19px;
 }
 
 /*Game 4*/
@@ -180,19 +185,18 @@ section h1{
   position: relative;
   overflow: auto;
   float:left;
-  clear: both;
 }
 
 .game4 img{
   height:200px;
   width:200px;
-  margin: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
 }
 
 .div-g4{
-  background-color: rgb(31, 117, 146);
+  background-color: lightblue;
   top: 50%;
   position: absolute; 
-  width: 199px;
-  margin-left:5px;
+  width: 201px;
+  margin-left:19px;
 }
