@@ -131,11 +131,12 @@ section h1{
 }
 
 .div-g1{
-  background-color: lightblue;
+  background-color: #4aaaaa;
   top: 50%;
   position: absolute; 
   width: 201px;
   margin-left:19px;
+  color:white;
 }
 
 /*Game 2*/
@@ -152,11 +153,12 @@ section h1{
 }
 
 .div-g2{
-  background-color: lightblue;
+  background-color: #4aaaaa;
   top: 50%;
   position: absolute; 
   width: 201px;
   margin-left:19px;
+  color:white;
 }
 
 .game-container-down{
@@ -180,11 +182,12 @@ section h1{
 }
 
 .div-g3{
-  background-color: lightblue;
+  background-color: #4aaaaa;
   top: 50%;
   position: absolute; 
   width: 201px;
   margin-left:19px;
+  color:white;
 }
 
 /*Game 4*/
@@ -201,17 +204,17 @@ section h1{
 }
 
 .div-g4{
-  background-color: lightblue;
+  background-color: #4aaaaa;
   top: 50%;
   position: absolute; 
   width: 201px;
   margin-left:19px;
+  color:white;
 }
 
 
 /*Contact*/
 .contact{
-  
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
   float: left;
@@ -220,8 +223,6 @@ section h1{
 }
 
 form {
-  /* Sólo para centrar el formulario a la página */
-
   width: 400px;
   padding: 20px;
 }
@@ -231,16 +232,25 @@ form div + div {
 }
 
   button{
-  background-color: #4CAF50; /* Green */
+  background-color: #4aaaaa;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 115px;
+  /*When the cursor touches the button it changes*/
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  
+  border-radius: 5px;
   }
+
+  button:hover{
+    background-color: #357979;
+  }
+
+#msg{
+  height: 100px;
+  width:200px;
+}
