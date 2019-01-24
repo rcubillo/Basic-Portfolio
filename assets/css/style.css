@@ -202,25 +202,27 @@ section h1{
 
 /*Contact*/
 .contact{
-  position: fixed;
+  
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
-  margin: 150px 150px 150px 150px;
+  float: left;
+  margin-left:35%;
+  margin-top: 150px;
 }
 
 form {
   /* Sólo para centrar el formulario a la página */
-  margin: 0 auto;
+
   width: 400px;
+  padding: 20px;
 }
 
 form div + div {
   margin-top: 1em;
 }
 
-  .button{
-    background-color: #4CAF50; /* Green */
-  border: 1px blakc solid;
+  button{
+  background-color: #4CAF50; /* Green */
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -231,5 +233,5 @@ form div + div {
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-
+  
   }
