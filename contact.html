@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- This in order to avoid any encoding as ISO-8859-1 so that they show up incorrectly -->
+  <meta charset="utf-8">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My basic portfolio</title>
+
+  <!-- Linking CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="nav">
+      <div class="top-navbar">
+        <a href="index.html" class="index"> About</a>
+        <a href=" portfolio.html" class="portfolio"> Portafolio</a>
+        <a href="contact.html"> Contact</a>
+
+      </div>
+
+      <div class="name">
+        <h4>Ronald Cubillo Jimenez</h4>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="contact">
+    <div>
+      <h1>Contact</h1>
+
+      <!--Adding a vertical line-->
+      <hr id="horizontal">
+
+      <form action="/my-handling-form-page" method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder= "John Smith"id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" placeholder= "example@gmail.com" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" placeholder= "Message"></textarea>
+        </div>
+        
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+  </section>
+
+
+
+</body>
+
+
+
+
+<footer class="footer">
+  <p>Copyright ©</p>
+</footer>
+
+
+</html>

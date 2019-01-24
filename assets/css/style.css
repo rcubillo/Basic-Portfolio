@@ -101,8 +101,6 @@ section h1{
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
   margin: 150px 150px 150px 150px;
-  
- 
 }
 
 .game-container{
@@ -200,3 +198,38 @@ section h1{
   width: 201px;
   margin-left:19px;
 }
+
+
+/*Contact*/
+.contact{
+  position: fixed;
+  background-color: #ffffff;
+  border: 1px solid #9B9A9A;
+  margin: 150px 150px 150px 150px;
+}
+
+form {
+  /* Sólo para centrar el formulario a la página */
+  margin: 0 auto;
+  width: 400px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+  .button{
+    background-color: #4CAF50; /* Green */
+  border: 1px blakc solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+  }
