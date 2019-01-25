@@ -9,8 +9,8 @@ body{
   line-height: 20px;
 }
 
+/* Header */
 .header{
- 
   text-align: center;
   background-color:#ffffff;
   border-bottom: 2px solid gray;
@@ -18,16 +18,19 @@ body{
 }
 
 .nav{
-  overflow: auto;
+  overflow: hidden;
+  height: auto;
  width: 960px;
  margin: 0 auto;
+ padding:0px 0px 0px 0px;
 }
 
 .top-navbar{
 float:right;
 margin-right: 100px;
+padding: 0;
+margin-top:20px;
 }
-
 
 header a{
   text-decoration: none;
@@ -36,17 +39,14 @@ header a{
   padding:0px 10px 0px 10px;
 }
 
-
-
 .name {
   background-color: #4aaaaa;
   color: white;
   display: block;
   float: right;
   margin-right: 30%;
-  padding:0px 10px 0px 10px;
+  padding:0px 0px 0px 10px;
 }
-
 
 .portfolio{
 border-right: 1px solid gray;
@@ -57,11 +57,19 @@ border-right: 1px solid gray;
 }
 
 
+
+
+/*Center of the page*/
 .about-me{
   position: fixed;
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
   margin: 100px 100px 100px 100px;
+}
+
+.center{
+  overflow: hidden;
+  height: auto;
 }
 
 .pic{
