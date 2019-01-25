@@ -241,12 +241,17 @@ margin: 0 auto;
 .contact{
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
-  float: left;
-  margin-left:35%;
-  margin-top: 150px;
+  width: 960px;
+  overflow: hidden; 
+  margin: 0 auto;
+  margin-top:15%;
 }
 
-form {
+.contact-box{
+  overflow: auto;
+}
+
+.form {
   width: 400px;
   padding: 20px;
 }
