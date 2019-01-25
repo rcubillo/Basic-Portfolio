@@ -9,20 +9,25 @@ body{
   line-height: 20px;
 }
 
+.header{
+ 
+  text-align: center;
+  background-color:#ffffff;
+  border-bottom: 2px solid gray;
+  width: 100%;
+}
 
 .nav{
-overflow: auto;
-width: 100%;
-background-color:#ffffff;
-border-bottom: 2px solid gray;
+  overflow: auto;
+ width: 960px;
+ margin: 0 auto;
 }
 
 .top-navbar{
 float:right;
-padding-top: 20px;
 margin-right: 100px;
-
 }
+
 
 header a{
   text-decoration: none;
@@ -30,6 +35,8 @@ header a{
   font-size: 20px;
   padding:0px 10px 0px 10px;
 }
+
+
 
 .name {
   background-color: #4aaaaa;
