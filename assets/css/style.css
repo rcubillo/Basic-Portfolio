@@ -44,8 +44,8 @@ header a{
   color: white;
   display: block;
   float: right;
-  margin-right: 30%;
-  padding:0px 0px 0px 10px;
+  margin-right: 48.2%;
+  padding:0px 10px 0px 10px;
 }
 
 .portfolio{
@@ -116,21 +116,24 @@ section h1{
 }
 
 /* Portfolio */
+
+.full-container{
+  margin-top: 15%;
+}
+
 #name-container{
   padding: 20px;
 }
 
 .container-portfolio{
-  position: absolute;
+margin: 0 auto;
   background-color: #ffffff;
   border: 1px solid #9B9A9A;
   width:960px;
-  left:50%;
-  margin-left:-400px;
-  margin-top:150px;
+  overflow: hidden;
 }
 
-.game-container{
+.game-container-top{
   text-align: center;
   overflow: auto;
   margin-left:160px;
