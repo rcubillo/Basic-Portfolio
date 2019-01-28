@@ -1,19 +1,20 @@
 * {
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body{
   margin: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%239C92AC' fill-opacity='0.07' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f7f7f7' fill-opacity='0.79'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   line-height: 20px;
 }
+
 
 /* Header */
 .header{
   text-align: center;
   background-color:#ffffff;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #cccccc;
   width: 100%;
 }
 
@@ -39,12 +40,17 @@ header a{
   padding:0px 10px 0px 10px;
 }
 
+  a:hover  {
+  background-color: #4aaaaa;
+  color:white;
+}
+
 .name {
   background-color: #4aaaaa;
   color: white;
   display: block;
   float: right;
-  margin-right: 48.2%;
+  margin-right: 50.2%;
   padding:0px 10px 0px 10px;
 }
 
@@ -58,18 +64,24 @@ border-right: 1px solid gray;
 
 /*Big box in the middle (index)*/
 
+.title-aboutme{
+color:#4aaaaa;
+font-size: 40px;
+font-family: cursive;
+}
+
 .about-me{
   width: 100%;
   position: absolute;
-  background-color: #ffffff;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
+
 .center{
-  overflow: hidden;
+  border: 1px solid #9B9A9A;
+  overflow: auto;
   width: 960px;
   margin: 0 auto;
-  border: 1px solid #9B9A9A;
 }
 
 /*Inside the big box in the middle*/
@@ -99,45 +111,50 @@ section h1{
   padding: 10px;
 }
 
+/* Footer */
 .footer{ 
   width:100%;
  text-align: center;
  border-top: 9px solid #4aaaaa;
  bottom: 0;  
  position: absolute;
- background-color: gray;
+ background-color:#666666;
 }
 
 .inside-footer{
  overflow: hidden;
-  background-color: gray;
   margin: 0 auto;
   width: 960px;
+}
+
+.inside-footer p{
+  color: #cccccc;
 }
 
 /* Portfolio */
 
 .full-container{
-  margin-top: 15%;
+  margin-top: 10%;
+  width:100%;
 }
 
 #name-container{
-  padding: 20px;
+  color:#4aaaaa;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
 }
 
 .container-portfolio{
-margin: 0 auto;
-  background-color: #ffffff;
+  margin: 0 auto;
   border: 1px solid #9B9A9A;
-  width:960px;
-  overflow: hidden;
+  width: 960px;
+  overflow: auto;
 }
 
 .game-container-top{
   text-align: center;
   overflow: auto;
-  margin-left:160px;
- 
+  margin-left:25%;
 }
 
 /*Game 1*/
@@ -161,6 +178,7 @@ margin: 0 auto;
   width: 201px;
   margin-left:19px;
   color:white;
+  opacity: 0.9;
 }
 
 /*Game 2*/
@@ -183,13 +201,13 @@ margin: 0 auto;
   width: 201px;
   margin-left:19px;
   color:white;
+  opacity: 0.9;
 }
 
 .game-container-down{
-
   text-align: center;
   overflow: auto;
-  margin-left:160px;
+  margin-left:25%;
 }
 
 /*Game 3*/
@@ -212,6 +230,7 @@ margin: 0 auto;
   width: 201px;
   margin-left:19px;
   color:white;
+  opacity: 0.9;
 }
 
 /*Game 4*/
@@ -234,17 +253,27 @@ margin: 0 auto;
   width: 201px;
   margin-left:19px;
   color:white;
+  opacity: 0.9;
 }
 
 
 /*Contact*/
+#contact-tittle{
+  color:#4aaaaa;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 40px;
+}
+
 .contact{
-  background-color: #ffffff;
   border: 1px solid #9B9A9A;
   width: 960px;
   overflow: hidden; 
   margin: 0 auto;
-  margin-top:15%;
+  margin-top:10%;
+}
+
+.form-inside{
+margin-left: 60px;
 }
 
 .contact-box{
@@ -252,15 +281,44 @@ margin: 0 auto;
 }
 
 .form {
-  width: 400px;
   padding: 20px;
+}
+
+#text-contact{
+  height: 40px;
+   width:800px;
+  margin-top: 22px;
+}
+
+#text-contact:active {
+  background-color: antiquewhite;
+}
+
+#email-text{
+  height: 40px;
+  width:800px;
+  margin-top: 22px;
+}
+
+#email-text:active {
+  background-color: antiquewhite;
+}
+
+#message-text{
+  height: 100px;
+  width:800px;
+  margin-top: 22px;
+}
+
+#message-text:active {
+  background-color: antiquewhite;
 }
 
 form div + div {
   margin-top: 1em;
 }
 
-  button{
+button{
   background-color: #4aaaaa;
   color: white;
   padding: 15px 32px;
@@ -273,13 +331,10 @@ form div + div {
   cursor: pointer;
   transition-duration: 0.4s;
   border-radius: 5px;
-  }
+}
 
   button:hover{
     background-color: #357979;
   }
 
-#msg{
-  height: 100px;
-  width:200px;
-}
+
