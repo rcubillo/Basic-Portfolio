@@ -21,68 +21,72 @@ body{
 .nav{
   overflow: hidden;
   height: auto;
- width: 960px;
- margin: 0 auto;
- padding:0px 0px 0px 0px;
+  width: 960px;
+  margin: 0 auto;
+  padding:0px 0px 0px 0px;
 }
 
 .top-navbar{
-float:right;
-margin-right: 0;
-padding: 0;
-margin-top:20px;
+ float:right;
+ margin-right: 0;
+ padding: 0;
+ margin-top:20px;
 }
 
 header a{
-  text-decoration: none;
-  color: gray;
-  font-size: 20px;
-  padding:0px 10px 0px 10px;
+ text-decoration: none;
+ color: gray;
+ font-size: 20px;
+ padding:0px 10px 0px 10px;
 }
 
-  a:hover  {
-  background-color: #4aaaaa;
-  color:white;
+a:hover  {
+ background-color: #4aaaaa;
+ color:white;
 }
 
 .name {
-  background-color: #4aaaaa;
-  color: white;
-  display: block;
-  float: right;
-  margin-right: 50.2%;
-  padding:0px 10px 0px 10px;
+ background-color: #4aaaaa;
+ color: white;
+ display: block;
+ float: right;
+ margin-right: 50.2%;
+ padding:0px 10px 0px 10px;
 }
 
 .portfolio{
-border-right: 1px solid gray;
+ border-right: 1px solid gray;
 }
 
 .index{
-  border-right: 1px solid gray;
+ border-right: 1px solid gray;
 }
 
 /*Big box in the middle (index)*/
-
-.title-aboutme{
-color:#4aaaaa;
-font-size: 40px;
-font-family: cursive;
-}
-
 .about-me{
-  width: 100%;
-  position: absolute;
-  margin-top: 10%;
+  width: 960px;
+  overflow: hidden;
+  border: 1px solid #9B9A9A;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top:10%;
 }
-
 
 .center{
-  border: 1px solid #9B9A9A;
   overflow: auto;
-  width: 960px;
-  margin: 0 auto;
+  
 }
+
+.title-aboutme{
+ color:#4aaaaa;
+ font-size: 40px;
+ font-family: cursive;
+}
+
+
+
+
+
 
 /*Inside the big box in the middle*/
 .pic{
@@ -258,11 +262,6 @@ section h1{
 
 
 /*Contact*/
-#contact-tittle{
-  color:#4aaaaa;
-  font-family: "Gloria Hallelujah", cursive;
-  font-size: 40px;
-}
 
 .contact{
   border: 1px solid #9B9A9A;
@@ -270,10 +269,7 @@ section h1{
   overflow: hidden; 
   margin: 0 auto;
   margin-top:10%;
-}
-
-.form-inside{
-margin-left: 60px;
+  background-color: #ffffff;
 }
 
 .contact-box{
@@ -282,6 +278,16 @@ margin-left: 60px;
 
 .form {
   padding: 20px;
+}
+
+#contact-tittle{
+  color:#4aaaaa;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 40px;
+}
+
+.form-inside{
+margin-left: 60px;
 }
 
 #text-contact{
