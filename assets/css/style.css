@@ -1,29 +1,28 @@
 * {
-  box-sizing: border-box;
-  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ box-sizing: border-box;
 }
 
 body{
-  margin: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f7f7f7' fill-opacity='0.79'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  line-height: 20px;
+ margin: 0;
+ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f7f7f7' fill-opacity='0.79'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+ line-height: 20px;
+ font-family:  Arial, Helvetica, sans-serif;
 }
-
 
 /* Header */
 .header{
-  text-align: center;
-  background-color:#ffffff;
-  border-bottom: 2px solid #cccccc;
-  width: 100%;
+ text-align: center;
+ background-color:#ffffff;
+ border-bottom: 2px solid #cccccc;
+ width: 100%;
 }
 
 .nav{
-  overflow: hidden;
-  height: auto;
-  width: 960px;
-  margin: 0 auto;
-  padding:0px 0px 0px 0px;
+ overflow: hidden;
+ height: auto;
+ width: 960px;
+ margin: 0 auto;
+ padding:0px 0px 0px 0px;
 }
 
 .top-navbar{
@@ -33,6 +32,7 @@ body{
  margin-top:20px;
 }
 
+/* Decoration of the links */
 header a{
  text-decoration: none;
  color: gray;
@@ -64,17 +64,16 @@ a:hover  {
 
 /*Big box in the middle (index)*/
 .about-me{
-  width: 960px;
-  overflow: hidden;
-  border: 1px solid #9B9A9A;
-  margin: 0 auto;
-  background-color: #ffffff;
-  margin-top:10%;
+ width: 960px;
+ overflow: hidden;
+ border: 2px solid #dddddd;
+ margin: 0 auto;
+ background-color: #ffffff;
+ margin-top:6%;
 }
 
 .center{
-  overflow: auto;
-  
+ overflow: auto;
 }
 
 .title-aboutme{
@@ -83,41 +82,35 @@ a:hover  {
  font-family: cursive;
 }
 
-
-
-
-
-
 /*Inside the big box in the middle*/
 .pic{
-  width:150px;
-  height: 150px;
-  float: left;
-  display: block;
-  margin: 10px 10px 0 10px;
+ width:150px;
+ height: 150px;
+ float: left;
+ display: block;
+ margin: 10px 10px 0 10px;
 }
 
-
 #horizontal {
-  border: 2px solid #cccccc;
-  border-radius: 300px/10px;
-   height: 0px;
-  text-align: center;
-  margin-right: 10px;
-  margin-left: 10px;
+ border: 2px solid #cccccc;
+ border-radius: 300px/10px;
+ height: 0px;
+ text-align: center;
+ margin-right: 10px;
+ margin-left: 10px;
 }
 
 section h1{
-  padding-left: 50px;
+ padding-left: 50px;
 }
 
 .me{
-  padding: 10px;
+ padding: 10px;
 }
 
 /* Footer */
 .footer{ 
-  width:100%;
+ width:100%;
  text-align: center;
  border-top: 9px solid #4aaaaa;
  bottom: 0;  
@@ -127,220 +120,220 @@ section h1{
 
 .inside-footer{
  overflow: hidden;
-  margin: 0 auto;
-  width: 960px;
+ margin: 0 auto;
+ width: 960px;
 }
 
 .inside-footer p{
-  color: #cccccc;
+ color: #cccccc;
 }
 
 /* Portfolio */
 
-.full-container{
-  margin-top: 10%;
-  width:100%;
-}
-
-#name-container{
-  color:#4aaaaa;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 40px;
+.full-container{ 
+ border: 2px solid #dddddd;
+ margin: 0 auto;
+ margin-top: 6%;
+ width: 960px;
+ overflow: hidden; 
+ background-color: #ffffff;
 }
 
 .container-portfolio{
-  margin: 0 auto;
-  border: 1px solid #9B9A9A;
-  width: 960px;
-  overflow: auto;
+overflow: auto;
+}
+
+#name-container{
+ color:#4aaaaa;
+ font-family: 'Gloria Hallelujah', cursive;
+ font-size: 40px;
 }
 
 .game-container-top{
-  text-align: center;
-  overflow: auto;
-  margin-left:25%;
+ text-align: center;
+ overflow: auto;
+ margin-left:25%;
 }
 
 /*Game 1*/
 .game1{
-  position: relative;
-  overflow: auto;
-  float:left;
+ position: relative;
+ overflow: auto;
+ float:left;
 }
 
 .game1 img{
-  height:200px;
-  width:200px;
-  margin: 20px 20px 20px 20px;
-  
+ height:200px;
+ width:200px;
+ margin: 20px 20px 20px 20px;
 }
 
 .div-g1{
-  background-color: #4aaaaa;
-  top: 50%;
-  position: absolute; 
-  width: 201px;
-  margin-left:19px;
-  color:white;
-  opacity: 0.9;
+ background-color: #4aaaaa;
+ top: 50%;
+ position: absolute; 
+ width: 201px;
+ margin-left:19px;
+ color:white;
+ opacity: 0.9;
 }
 
 /*Game 2*/
 .game2{
-  position: relative;
-  overflow: auto;
-  float:left;
+ position: relative;
+ overflow: auto;
+ float:left;
 }
 
 .game2 img{
-  height:200px;
-  width:200px;
-  margin: 20px 20px 20px 20px;
+ height:200px;
+ width:200px;
+ margin: 20px 20px 20px 20px;
 }
 
 .div-g2{
-  background-color: #4aaaaa;
-  top: 50%;
-  position: absolute; 
-  width: 201px;
-  margin-left:19px;
-  color:white;
-  opacity: 0.9;
+ background-color: #4aaaaa;
+ top: 50%;
+ position: absolute; 
+ width: 201px;
+ margin-left:19px;
+ color:white;
+ opacity: 0.9;
 }
 
 .game-container-down{
-  text-align: center;
-  overflow: auto;
-  margin-left:25%;
+ text-align: center;
+ overflow: auto;
+ margin-left:25%;
 }
 
 /*Game 3*/
 .game3{
-  position: relative;
-  overflow: auto;
-  float:left;
+ position: relative;
+ overflow: auto;
+ float:left;
 }
 
 .game3 img{
-  height:200px;
-  width:200px;
-  margin: 20px 20px 20px 20px;
+ height:200px;
+ width:200px;
+ margin: 20px 20px 20px 20px;
 }
 
 .div-g3{
-  background-color: #4aaaaa;
-  top: 50%;
-  position: absolute; 
-  width: 201px;
-  margin-left:19px;
-  color:white;
-  opacity: 0.9;
+ background-color: #4aaaaa;
+ top: 50%;
+ position: absolute; 
+ width: 201px;
+ margin-left:19px;
+ color:white;
+ opacity: 0.9;
 }
 
 /*Game 4*/
 .game4{
-  position: relative;
-  overflow: auto;
-  float:left;
+ position: relative;
+ overflow: auto;
+ float:left;
 }
 
 .game4 img{
-  height:200px;
-  width:200px;
-  margin: 20px 20px 20px 20px;
+ height:200px;
+ width:200px;
+ margin: 20px 20px 20px 20px;
 }
 
 .div-g4{
-  background-color: #4aaaaa;
-  top: 50%;
-  position: absolute; 
-  width: 201px;
-  margin-left:19px;
-  color:white;
-  opacity: 0.9;
+ background-color: #4aaaaa;
+ top: 50%;
+ position: absolute; 
+ width: 201px;
+ margin-left:19px;
+ color:white;
+ opacity: 0.9;
 }
 
 
 /*Contact*/
 
 .contact{
-  border: 1px solid #9B9A9A;
-  width: 960px;
-  overflow: hidden; 
-  margin: 0 auto;
-  margin-top:10%;
-  background-color: #ffffff;
+ border: 2px solid #dddddd;
+ width: 960px;
+ overflow: hidden; 
+ margin: 0 auto;
+ margin-top:6%;
+ background-color: #ffffff;
 }
 
 .contact-box{
-  overflow: auto;
+ overflow: auto;
 }
 
 .form {
-  padding: 20px;
+ padding: 20px;
 }
 
 #contact-tittle{
-  color:#4aaaaa;
-  font-family: "Gloria Hallelujah", cursive;
-  font-size: 40px;
+ color:#4aaaaa;
+ font-family: "Gloria Hallelujah", cursive;
+ font-size: 40px;
 }
 
 .form-inside{
-margin-left: 60px;
+ margin-left: 60px;
 }
 
 #text-contact{
-  height: 40px;
-   width:800px;
-  margin-top: 22px;
+ height: 40px;
+ width:800px;
+ margin-top: 12px;
 }
 
 #text-contact:active {
-  background-color: antiquewhite;
+ background-color: antiquewhite;
 }
 
 #email-text{
-  height: 40px;
-  width:800px;
-  margin-top: 22px;
+ height: 40px;
+ width:800px;
+ margin-top: 12px;
 }
 
 #email-text:active {
-  background-color: antiquewhite;
+ background-color: antiquewhite;
 }
 
 #message-text{
-  height: 100px;
-  width:800px;
-  margin-top: 22px;
+ height: 100px;
+ width:800px;
+ margin-top: 12px;
 }
 
 #message-text:active {
-  background-color: antiquewhite;
+ background-color: antiquewhite;
 }
 
 form div + div {
-  margin-top: 1em;
+ margin-top: 1em;
 }
 
 button{
-  background-color: #4aaaaa;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 115px;
+ background-color: #4aaaaa;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+
   /*When the cursor touches the button it changes*/
-  cursor: pointer;
-  transition-duration: 0.4s;
-  border-radius: 5px;
+ cursor: pointer;
+ transition-duration: 0.4s;
+ border-radius: 5px;
 }
 
-  button:hover{
-    background-color: #357979;
-  }
+button:hover{
+ background-color: #357979;
+}
 
 
