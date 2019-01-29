@@ -1,7 +1,7 @@
 
 # Basic-Portfolio
-___
-### Contributors
+
+# Contributors
 ___
 @rcubillo
 
