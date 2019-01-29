@@ -35,7 +35,7 @@ body{
 /* Decoration of the links */
 header a{
  text-decoration: none;
- color: gray;
+ color:#777777;
  font-size: 20px;
  padding:0px 10px 0px 10px;
 }
@@ -112,7 +112,7 @@ section h1{
 .footer{ 
  width:100%;
  text-align: center;
- border-top: 9px solid #4aaaaa;
+ border-top: 8px solid #4aaaa5;
  bottom: 0;  
  position: absolute;
  background-color:#666666;
@@ -263,6 +263,7 @@ overflow: auto;
  margin: 0 auto;
  margin-top:6%;
  background-color: #ffffff;
+ color:#777777;
 }
 
 .contact-box{
