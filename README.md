@@ -1,8 +1,8 @@
 
 # Basic-Portfolio
 
-# Contributors
-___
+## Contributors
+
 @rcubillo
 
 ### Technology
