@@ -32,6 +32,7 @@ body{
  margin-top:20px;
 }
 
+
 /* Decoration of the links */
 header a{
  text-decoration: none;
@@ -70,6 +71,7 @@ a:hover  {
  margin: 0 auto;
  background-color: #ffffff;
  margin-top:6%;
+ max-width: 90%;
 }
 
 .center{
@@ -122,6 +124,7 @@ section h1{
  overflow: hidden;
  margin: 0 auto;
  width: 960px;
+ max-width: 90%;
 }
 
 .inside-footer p{
