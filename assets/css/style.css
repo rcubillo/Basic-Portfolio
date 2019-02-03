@@ -15,6 +15,7 @@ body{
  background-color:#ffffff;
  border-bottom: 2px solid #cccccc;
  width: 100%;
+
 }
 
 .nav{
@@ -23,11 +24,11 @@ body{
  width: 960px;
  margin: 0 auto;
  padding:0px 0px 0px 0px;
+ max-width: 90%;
 }
 
 .top-navbar{
  float:right;
- margin-right: 0;
  padding: 0;
  margin-top:20px;
 }
@@ -38,7 +39,7 @@ header a{
  text-decoration: none;
  color:#777777;
  font-size: 20px;
- padding:0px 10px 0px 10px;
+ padding:0px 15px 0px 15px;
 }
 
 a:hover  {
@@ -50,9 +51,9 @@ a:hover  {
  background-color: #4aaaaa;
  color: white;
  display: block;
- float: right;
- margin-right: 50.2%;
- padding:0px 10px 0px 10px;
+ float: left;
+ padding:0px 20px 0px 20px;
+
 }
 
 .portfolio{
@@ -140,6 +141,7 @@ section h1{
  width: 960px;
  overflow: hidden; 
  background-color: #ffffff;
+ max-width: 90%;
 }
 
 .container-portfolio{
@@ -267,6 +269,7 @@ overflow: auto;
  margin-top:6%;
  background-color: #ffffff;
  color:#777777;
+ max-width: 90%;
 }
 
 .contact-box{
@@ -289,7 +292,7 @@ overflow: auto;
 
 #text-contact{
  height: 40px;
- width:800px;
+ width:90%;
  margin-top: 12px;
 }
 
@@ -299,7 +302,7 @@ overflow: auto;
 
 #email-text{
  height: 40px;
- width:800px;
+ width:90%;
  margin-top: 12px;
 }
 
@@ -309,7 +312,7 @@ overflow: auto;
 
 #message-text{
  height: 100px;
- width:800px;
+ width:90%;
  margin-top: 12px;
 }
 
